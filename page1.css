@@ -1,0 +1,158 @@
+.hf
+{
+	background:orange;
+    color: white;
+    border: 5px dashed white;
+    padding: 13px;
+    margin:auto auto;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 15px;
+}
+img
+{
+	float: right;
+	border-radius: 10px;
+}
+img:hover
+{
+	transform: scale(1.05);
+}
+#centre
+{
+	text-align: center;
+}
+table
+{
+	
+	color:white;
+	font-weight: bold;
+	font-size: x-large;
+	font-style: normal;
+	border: 3px dashed white;
+	border-color: white;
+	border-radius: 10px;
+}
+p
+{
+    font-family: arial;
+	color:black;
+	width: 800px;
+	/*box-shadow: 0 0 5px rgba(0,0,0,0.5)*/
+}
+p:hover
+{
+	transform: scale(1.05);
+}
+body
+{
+	background-image: url("black-wallpaper-12.jpg");
+	/*background-repeat: no-repeat;*/
+	/*background: rgb(28,24,23);
+background: radial-gradient(circle, rgba(28,24,23,0.7035189075630253) 0%, rgba(0,0,0,0.5830707282913166) 100%);*/
+}
+#intro
+{
+	font-family: Georgia;
+	font-weight: bold;
+	color: white;
+	display: block;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	
+}
+h1
+{
+	color: orange;
+}    
+.contact
+{
+	font-weight: bold;
+	font-size: large;
+	color: white;
+	direction: ltr;
+}
+#a
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 140px;
+}
+#b
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 135px;
+}
+#c
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 230px;
+}
+#d
+{
+	background: none;
+    padding: 5px;
+    border:3px dotted orange;
+    border-radius: 20px;
+    width: 200px;
+}
+ol
+{
+	color:white;
+}
+li
+{
+	width: 150px;
+}
+li:hover
+{
+	transform: scale(1.1);
+	transform: translate(10px,0px);
+}
+a
+{
+	color: white;
+	width: 50px;
+}
+a:hover
+{
+	color:orange;
+	cursor: pointer;
+}
+body
+{
+	margin: 20px 25px
+}
+#runner
+{
+	width: 20px;
+	height: 20px;
+	top: -20px;
+	left: -97px;
+	background-color: orange;
+	position: relative;
+	animation-name: anime;
+	animation-duration: 20s;
+	animation-delay: 0.5s;
+	border:2px solid white;
+	animation-iteration-count: 100;
+	border-radius: 20px;
+}
+@keyframes anime
+{
+	0% {background-color: green; left: -20px; top: -97px;  }
+	25% {background-color: violet; left: 1300px; top: -97px;  }
+	50% {background-color: pink; left: -20px; top: -97px;  }
+	75% {background-color: blue; left: 1300px; top: -97px;  }
+	100% {background-color: red; left: -20px; top: -97px;  }
+}
+
